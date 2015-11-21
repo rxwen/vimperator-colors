@@ -32,10 +32,12 @@ hi CompTitle				color: #ddc; background: #333; font-weight: bold;
 hi CompTitle>*				color: #aaa; font-weight: bold; border-top: 1px solid gray; border-bottom: 1px solid #BBB; padding: 1px 0.5ex;
 
 " Hints!
-hi Hint						color: white; background-color: #800; border-color: ButtonShadow; font-family: Inconsolata; font-size: 12px; border-width: 0px; border-style: solid; padding 0 1px;
+hi Hint                     font-weight:bold;color:black;background-color:#ffe269;padding:0px 5px 0px 5px;border:solid 1px #e3be23;border-radius: 5px;
+hi HintElem                 ""
+"hi Hint						color: white; background-color: #800; border-color: ButtonShadow; font-family: Inconsolata; font-size: 12px; border-width: 0px; border-style: solid; padding 0 1px;
 hi Hint::after				content: attr(number);
 hi HintActive				color: black; background: #480;
-hi HintElem					color: black; background-color: #880; 
+"hi HintElem					color: black; background-color: #880; 
 hi HintImage				opacity: .5;
 
 " Used also in wrapping error messages as the background, simple speaking
